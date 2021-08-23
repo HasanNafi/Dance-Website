@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+#logo img {
+    height: 42px;
+    filter: invert(1);
+    margin-right: 5px;
+}
+
+#navbar {
+    background-color: #857a7a;
+    font-family: 'Yeon Sung';
+    padding: 7px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 7px 12px;
+    color: white;
+    cursor: pointer;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+#navbar li a:hover {
+    background-color: wheat;
+}
+
+#introSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 65px;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 425px;
+    background-color: red;
+    z-index: -1;
+}
+
+#introSection div.small {
+    font-size: 52px;
+    padding: 5px;
+}
+
+#missionSection {
+    height: 300px;
+    background-color: violet;
+    margin: auto;
+    justify-content: center;
+}
+
+#missionSection>h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 21px;
+    width: 30%;
+    display: inline-block;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+}
+
+.card h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 12px;
+    font-size: 30px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-box .img {
+    height: 110px;
+    padding: 0 14px;
+    margin: 5px 9px;
+    filter: invert(-1);
+}
+
+.img img {
+    height: inherit;
+    width: 90px;
+}
+
+.card-box .content {
+    padding: 4px;
+    font-size: 18px;
+}
+
+#sponsorsSection {
+    height: 300px;
+    background-color: #fbd6d6c7;
+    padding-top: 20px;
+}
+
+#sponsorsSection h2 {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+#sponsors {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.spImage {
+    height: 80px;
+    margin: 20px;
+}
+
+#footer {
+    background-color: rgb(150, 117, 117);
+    height: 70px;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 20px;
+}
